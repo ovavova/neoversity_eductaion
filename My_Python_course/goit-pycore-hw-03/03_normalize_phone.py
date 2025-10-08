@@ -18,7 +18,7 @@ raw_numbers = [
 
 def normalize_phone(phone_number: str) -> str:
     """
-    Normalize a phone number by removing all non-digit characters.
+    Normalized phone number and returns "+380XXXXXXX" string
 
     Args:
         phone_number (str): Input phone number, may include spaces,
