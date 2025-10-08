@@ -10,8 +10,8 @@ d = datetime.strptime(input_1, "%Y/%m/%d")
 print(mybirthday.strftime('%d %A %B'))
 #print(delta)
 
-start_date = date(year = 2022, day = 24, month = 2)
-today_date = date(year = 2025, day = 7, month = 10)
+start_date = date(year=2022, day=24, month=2)
+today_date = date(year = 2025, day = 7, month=10)
 
 delta = today_date - start_date
 
