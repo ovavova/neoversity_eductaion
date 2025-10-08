@@ -2,7 +2,6 @@
 #  заданою датою і поточною датою.
 from datetime import datetime, date
 
-#date = input("Input the date, format 'YYYY-MM-DD'': ")
 inp_date = "2030-09-18"
 
 def get_days_from_today(date: str) -> int: 
